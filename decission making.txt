@@ -1,0 +1,26 @@
+import java.util.;
+
+public class Decession_making_to_find_the_commisson {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int sales;
+        double commission;
+
+        System.out.print(Please enter the sales amount );
+        sales = sc.nextInt();
+
+        if (sales = 30001) {
+            commission = sales  0.15;
+        } else if (sales = 22001) {
+            commission = sales  0.10;
+        } else if (sales = 12001) {
+            commission = sales  0.07;
+        } else if (sales = 5001) {
+            commission = sales  0.05;
+        } else {
+            commission = 0;
+        }
+
+        System.out.println(Commission is ₹ + commission);
+    }
+}
